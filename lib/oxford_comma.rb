@@ -1,5 +1,8 @@
 def oxford_comma(array)
-  string = " "
-array.join(",")
-return
+  if array.length == 1 
+    return array
+  elsif array.length == 2 
+    return array.join(",")
+   elsif array.length >= 3
+   return
 end
