@@ -1,3 +1,5 @@
 def oxford_comma(array)
-array.join()
+  string = " "
+array.join(",")
+return
 end
